@@ -63,7 +63,7 @@ header {
 }
 
 header .back a img {
-    margin-top: 4px;
+    margin-top: 3px;
     width: 30px;
     height: 25px;
     filter: invert(100%) sepia(100%) saturate(100%);
@@ -93,17 +93,22 @@ main {
     border-radius: 5px;
 }
 
+.box-perfil {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    margin-left: 1%;
+}
+
 #perfil {
-    margin: 10px 0px 0px 10px;
     border-radius: 50%;
 }
 
 .box-left .left-top {
     position: relative;
     display: flex;
-    height: 30%;
+    height: 35%;
     background-color: #021c22;
-    padding-bottom: 10px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
 }
 
@@ -243,9 +248,9 @@ main {
 }
 
 .usuario {
+    height: 80%;
     display: flex;
     flex-direction: column;
-    width: 80%;
 }
 
 .usuario-top {
@@ -278,11 +283,16 @@ main {
 
 .redes-vizinhas {
     display: flex;
-    height: 50px;
+    justify-content: space-around;
+    margin: 0;
+    width: 60%;
+    height: 12%;
+    position: absolute;
+    top: 73%;
+    left: 22%;
 }
 
 .redes-vizinhas a {
-    margin-right: 5px;
     transition: 0.3s ease-in-out;
 }
 
@@ -326,50 +336,37 @@ main {
     margin-top: 5px;
 }
 
-ul {
-    list-style: none;
-}
-
-.stats-paragrafos ul li p {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    color: #fff;
-    margin-left: 32px;
-    margin-top: 6px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .stats {
     display: flex;
-    height: 75%;
+    flex-direction: column;
 }
 
 .stats-paragrafos {
-    width: 40%;
-}
-
-.valores {
-    width: 50%;
-}
-
-.valores p {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    color: #fff;
-    margin-left: 30px;
-    margin-top: 6px;
-    padding: 3.5px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 99%;
+    height: 4.7vh;
 }
 
-.stats-paragrafos ul li p img {
-    display: block;
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    filter: invert(100%) sepia(100%) saturate(100%);
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.icon-p {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 2%;
+    font-size: 1.5em;
+}
+
+.valor {
+    margin-right: 1%;
 }
 
 .box-rigth-center {
