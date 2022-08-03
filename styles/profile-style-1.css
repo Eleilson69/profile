@@ -96,8 +96,9 @@ main {
 .box-perfil {
     display: flex;
     align-items: center;
-    height: 80%;
-    margin-left: 1%;
+    height: 75%;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 #perfil {
@@ -192,7 +193,6 @@ main {
 }
 
 .box-left .left-bottom {
-    position: relative;
     height: 50.7%;
     background-color: #021c22;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
@@ -206,6 +206,7 @@ main {
 .grid {
     overflow: auto;
     display: none;
+    width: 50%;
     position: absolute;
     grid-gap: 5px;
     grid-template-columns: auto auto auto auto auto auto;
@@ -214,26 +215,27 @@ main {
 .albums {
     display: none;
     position: absolute;
+    width: 50%;
     background-color: rgb(187, 0, 255);
 }
 
 .heart {
     display: none;
     position: absolute;
+    width: 50%;
     background-color: rgb(8, 0, 255);
 }
 
 .bookmark {
     display: none;
+    width: 50%;
     position: absolute;
     background-color: rgb(255, 0, 68);
 }
 
 .ActivePosition {
-    position: absolute;
     display: grid;
-    width: 100%;
-    height: 100%;
+    height: 45vh;
 }
 
 .box-left .left-bottom h2 {
@@ -248,7 +250,8 @@ main {
 }
 
 .usuario {
-    height: 80%;
+    margin-top: 3%;
+    height: 75%;
     display: flex;
     flex-direction: column;
 }
@@ -283,16 +286,16 @@ main {
 
 .redes-vizinhas {
     display: flex;
-    justify-content: space-around;
-    margin: 0;
-    width: 60%;
+    margin-top: 3%;
+    width: 99%;
     height: 12%;
     position: absolute;
     top: 73%;
-    left: 22%;
+    left: 30%;
 }
 
 .redes-vizinhas a {
+    margin-right: 1%;
     transition: 0.3s ease-in-out;
 }
 

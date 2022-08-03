@@ -6,9 +6,9 @@
     body {
         position: relative;
         min-width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         box-sizing: border-box;
-        border: solid transparent;
+        padding: auto;
     }
     header {
         display: flex;
@@ -27,13 +27,11 @@
         flex-direction: column;
     }
     .left-top {
-        position: relative;
-        min-width: 98vw;
+        min-width: 99vw;
         min-height: 25vh;
     }
     .box-perfil {
-        position: absolute;
-        margin: 0;
+        margin: 5%;
         width: 100px;
         height: 100px;
     }
@@ -45,11 +43,12 @@
         margin: 0;
     }
     .usuario {
-        left: 110px;
+        left: 35%;
         position: absolute;
         width: 230px;
         height: 100px;
         display: block;
+        margin: 5%;
     }
     .usuario h1 {
         margin: 0;
@@ -68,53 +67,64 @@
         font-size: 0.9em;
     }
     .redes-vizinhas {
-        position: absolute;
         left: 0;
-        width: 348px;
-        border: solid transparent;
+        width: 100%;
     }
     .redes-vizinhas a:hover {
         transform: translateY(0);
     }
     .box-center {
-        min-width: 98vw;
+        min-width: 99vw;
         min-height: 7vh;
     }
     .left-bottom {
-        min-width: 98vw;
+        margin-bottom: 5%;
+        min-width: 99vw;
         min-height: 30vh;
     }
     .book {
+        width: 100%;
+        height: 30vh;
         font-size: 0.7em;
     }
+    .grid {
+        width: 100%;
+        height: 30vh;
+    }
+    .albums {
+        width: 100%;
+        height: 30vh;
+    }
+    .heart {
+        width: 100%;
+        height: 30vh;
+    }
+    .bookmark {
+        width: 100%;
+        height: 30vh;
+    }
     .activePosition {
-        min-width: 98vw;
         min-height: 30vh;
     }
     .box-rigth-top {
-        position: absolute;
         margin: 0;
-        top: 485px;
-        min-width: 98vw;
+        min-width: 99vw;
         min-height: 40vh;
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
     }
     .stats-title {
         padding: 0;
-        min-width: 98vw;
-        position: absolute;
+        min-width: 99vw;
     }
     .stats-title h2 {
         width: 94%;
         margin: 0;
     }
     .stats {
-        position: absolute;
-        top: 55px;
         display: flex;
         justify-content: space-between;
         font-size: 15px;
-        min-width: 95vw;
+        min-width: 99vw;
         min-height: 30vh;
     }
     .conteudo {
@@ -131,11 +141,9 @@
     }
     .box-rigth-center {
         margin: 0;
-        position: absolute;
         display: flex;
-        min-width: 95vw;
+        min-width: 99vw;
         height: 30vh;
-        top: 810px;
         flex-direction: column;
     }
     .box-rigth-center h2 {
@@ -149,8 +157,6 @@
     .box-rigth-bottom {
         display: flex;
         margin: 0;
-        min-width: 98vw;
-        top: 748px;
-        position: absolute;
+        min-width: 99vw;
     }
 }
