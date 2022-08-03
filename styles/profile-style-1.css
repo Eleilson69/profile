@@ -1,17 +1,17 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'kdam';
-    src: url(../../../fontes/KdamThmorPro-Regular.ttf)format('truetype');
+    src: url(../fontes/KdamThmorPro-Regular.ttf)format('truetype');
 }
 
 @font-face {
     font-family: 'nuosuSIl';
-    src: url(../../../fontes/NuosuSIL-Regular.ttf)format('truetype');
+    src: url(../fontes/NuosuSIL-Regular.ttf)format('truetype');
 }
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url(../../../fontes/BebasNeue-Regular.ttf)format('truetype');
+    src: url(../fontes/BebasNeue-Regular.ttf)format('truetype');
 }
 
 * {
