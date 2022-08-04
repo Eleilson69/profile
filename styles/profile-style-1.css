@@ -251,6 +251,7 @@ main {
 
 .usuario {
     margin-top: 3%;
+    width: 50%;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -263,25 +264,24 @@ main {
 
 .usuario-top h1 {
     color: #fff;
-    margin-top: 20px;
+    margin-top: 5%;
     margin-left: 30px;
     font-family: var(--font-principal);
     font-size: 22px;
 }
 
 .usuario-bottom {
-    width: 90%;
+    width: 85%;
     height: 50%;
     color: #fff;
+    margin-left: 9%;
 }
 
 .usuario-bottom h3 {
-    width: 92%;
     margin-top: 5px;
 }
 
 .usuario-bottom h4 {
-    width: 92%;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 8px;
 }
@@ -292,8 +292,8 @@ main {
     width: 99%;
     height: 12%;
     position: absolute;
-    top: 73%;
-    left: 30%;
+    top: 65%;
+    left: 25%;
 }
 
 .redes-vizinhas a {
