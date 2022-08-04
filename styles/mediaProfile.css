@@ -45,7 +45,7 @@
     .usuario {
         left: 35%;
         position: absolute;
-        width: 230px;
+        width: 58%;
         height: 100px;
         display: block;
         margin: 5%;
@@ -109,7 +109,7 @@
     .box-rigth-top {
         margin: 0;
         min-width: 99vw;
-        min-height: 40vh;
+        min-height: 20vh;
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
     }
     .stats-title {
@@ -122,10 +122,12 @@
     }
     .stats {
         display: flex;
-        justify-content: space-between;
         font-size: 15px;
         min-width: 99vw;
-        min-height: 30vh;
+        min-height: 20vh;
+    }
+    .stats-paragrafos {
+        height: 3vh;
     }
     .conteudo {
         display: flex;

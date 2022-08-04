@@ -270,16 +270,18 @@ main {
 }
 
 .usuario-bottom {
-    margin-left: 30px;
+    width: 90%;
     height: 50%;
     color: #fff;
 }
 
 .usuario-bottom h3 {
+    width: 92%;
     margin-top: 5px;
 }
 
 .usuario-bottom h4 {
+    width: 92%;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 8px;
 }
@@ -295,7 +297,7 @@ main {
 }
 
 .redes-vizinhas a {
-    margin-right: 1%;
+    margin: 1%;
     transition: 0.3s ease-in-out;
 }
 
