@@ -27,7 +27,7 @@
         flex-direction: column;
     }
     .left-top {
-        min-width: 99vw;
+        min-width: 100vw;
         min-height: 25vh;
     }
     .box-perfil {
@@ -77,12 +77,12 @@
         transform: translateY(0);
     }
     .box-center {
-        min-width: 99vw;
+        min-width: 100vw;
         min-height: 7vh;
     }
     .left-bottom {
         margin-bottom: 5%;
-        min-width: 99vw;
+        min-width: 100vw;
         min-height: 30vh;
     }
     .book {
@@ -111,13 +111,13 @@
     }
     .box-rigth-top {
         margin: 0;
-        min-width: 99vw;
+        min-width: 100vw;
         min-height: 35vh;
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
     }
     .stats-title {
         padding: 0;
-        min-width: 99vw;
+        min-width: 100vw;
     }
     .stats-title h2 {
         width: 94%;
@@ -126,7 +126,7 @@
     .stats {
         display: flex;
         font-size: 15px;
-        min-width: 99vw;
+        min-width: 100vw;
         min-height: 20vh;
     }
     .stats-paragrafos {
@@ -147,7 +147,7 @@
     .box-rigth-center {
         margin: 0%;
         display: flex;
-        min-width: 99vw;
+        min-width: 100vw;
         height: 30vh;
         flex-direction: column;
     }
@@ -159,7 +159,8 @@
         font-size: 0.8em;
     }
     .box-rigth-bottom {
+        margin: 0;
         display: flex;
-        min-width: 99vw;
+        min-width: 100vw;
     }
 }
