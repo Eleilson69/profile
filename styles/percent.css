@@ -59,11 +59,12 @@
 .conteiner .card .percent svg {
     border: solid transparent;
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 80px;
     height: 80px;
     bottom: 12px;
-    right: 3px;
     transform: rotate(275deg);
 }
 
@@ -100,8 +101,8 @@
     position: absolute;
     width: 65px;
     height: 65px;
-    inset: 4px;
-    top: -4px;
+    inset: 5.7px;
+    top: -5.5px;
     z-index: 10;
     border-radius: 50%;
     transform: rotate(calc(3.6deg * var(--num)));
