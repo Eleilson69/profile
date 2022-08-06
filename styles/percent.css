@@ -93,20 +93,6 @@ svg {
     }
 }
 
-
-/* .dot::before {
-    content: "";
-    position: absolute;
-    top: -0.5%;
-    left: 42%;
-    transform: translateX(5px);
-    width: 3.5px;
-    height: 8px;
-    border: 30%;
-    background: var(--clr);
-    box-shadow: 0 0 1px var(--clr), 0 0 5px var(--clr);
-} */
-
 .number {
     display: flex;
     flex-direction: column;
@@ -119,7 +105,7 @@ svg {
     position: absolute;
     opacity: 0;
     animation: fadeIn 1s linear forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
 }
 
 .number h2 {

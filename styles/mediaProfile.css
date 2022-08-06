@@ -78,15 +78,16 @@
         justify-content: end;
         overflow: hidden;
     }
-    .box-center a:hover {
-        transform: translateY(0);
-    }
-    .box-center img {
-        height: 20px;
-    }
     .box-center {
         min-width: 100vw;
         min-height: 7vh;
+    }
+    .redes-vizinha {
+        min-width: 100vw;
+        min-height: 7vh;
+    }
+    .redes-vizinha a:hover {
+        transform: translateY(0);
     }
     .left-bottom {
         margin-bottom: 5%;

@@ -113,6 +113,40 @@ main {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
 }
 
+.redes-vizinha {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 9%;
+    background-color: #021c22;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.416);
+    transition-delay: 1s;
+    transition: 0.5s all cubic-bezier(0.55, 0.055, 0.265, 1.55);
+}
+
+.redes-vizinha h2 {
+    color: #fff;
+    font-family: var(--font-padrao);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.redes-vizinha a {
+    margin: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.redes-vizinha img {
+    width: 100%;
+}
+
+.redes-vizinha a:hover {
+    transform: translateY(-10px);
+}
+
 .box-center {
     display: flex;
     align-items: center;
@@ -300,10 +334,6 @@ main {
 
 .box-center img {
     width: 100%;
-}
-
-.box-center a:hover {
-    transform: translateY(-10px);
 }
 
 #icon-verificado {
