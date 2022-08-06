@@ -61,7 +61,7 @@ svg {
     stroke-dashoffset: calc(185 - (185 * var(--num)) / 100);
     opacity: 0;
     animation: fadeIn 1s linear forwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
 }
 
 @keyframes fadeIn {
@@ -93,7 +93,8 @@ svg {
     }
 }
 
-.dot::before {
+
+/* .dot::before {
     content: "";
     position: absolute;
     top: -0.5%;
@@ -104,7 +105,7 @@ svg {
     border: 30%;
     background: var(--clr);
     box-shadow: 0 0 1px var(--clr), 0 0 5px var(--clr);
-}
+} */
 
 .number {
     display: flex;
@@ -118,7 +119,7 @@ svg {
     position: absolute;
     opacity: 0;
     animation: fadeIn 1s linear forwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
 }
 
 .number h2 {
