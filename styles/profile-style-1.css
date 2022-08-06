@@ -286,6 +286,13 @@ main {
     margin-top: 8px;
 }
 
+.percentual {
+    position: absolute;
+    width: 99%;
+    height: 30%;
+    top: 110px;
+}
+
 .redes-vizinhas {
     display: flex;
     margin-top: 3%;
