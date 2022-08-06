@@ -99,7 +99,7 @@ svg {
     left: 42%;
     transform: translateX(50%);
     width: 3.5px;
-    height: 10px;
+    height: 8px;
     border: 30%;
     background: var(--clr);
     box-shadow: 0 0 1px var(--clr), 0 0 5px var(--clr);
