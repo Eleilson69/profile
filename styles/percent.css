@@ -47,15 +47,6 @@
     height: 100%;
 }
 
-.conteiner .card {
-    position: relative;
-    width: 80px;
-    height: 63px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .conteiner .card .percent {
     border: solid transparent;
     position: relative;
@@ -69,7 +60,7 @@
     border: solid transparent;
     display: flex;
     position: relative;
-    width: 79px;
+    width: 80px;
     height: 80px;
     bottom: 12px;
     right: 3px;
@@ -141,11 +132,13 @@
 }
 
 .number {
+    border: solid transparent;
     position: absolute;
     inset: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80px;
     flex-direction: column;
     opacity: 0;
     animation: fadeIn 1s linear forwards;
@@ -155,7 +148,7 @@
 .number h2 {
     display: flex;
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.5em;
 }
 
@@ -170,8 +163,6 @@
 
 .number p {
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 200;
     font-size: 0.6em;
     letter-spacing: 2px;
