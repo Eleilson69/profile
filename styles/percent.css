@@ -9,6 +9,7 @@
     position: absolute;
     width: 95%;
     height: 45%;
+    bottom: -5px;
     display: flex;
     justify-content: end;
     overflow: hidden;
