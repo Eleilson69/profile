@@ -294,7 +294,7 @@ main {
 }
 
 .box-center a {
-    margin: 1%;
+    margin: 1px;
     transition: 0.3s ease-in-out;
 }
 

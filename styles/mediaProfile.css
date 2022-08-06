@@ -71,15 +71,18 @@
     }
     .box-percent {
         position: absolute;
-        bottom: 3px;
+        top: 90px;
         width: 360px;
         margin-left: 2.5%;
         display: flex;
         justify-content: end;
         overflow: hidden;
     }
-    .redes-vizinhas a:hover {
+    .box-center a:hover {
         transform: translateY(0);
+    }
+    .box-center img {
+        height: 20px;
     }
     .box-center {
         min-width: 100vw;
