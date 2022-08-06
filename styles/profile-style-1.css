@@ -98,7 +98,7 @@ main {
     align-items: center;
     height: 75%;
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 #perfil {
@@ -293,26 +293,16 @@ main {
     top: 110px;
 }
 
-.redes-vizinhas {
-    display: flex;
-    margin-top: 3%;
-    width: 99%;
-    height: 12%;
-    position: absolute;
-    top: 65%;
-    left: 25%;
-}
-
-.redes-vizinhas a {
+.box-center a {
     margin: 1%;
     transition: 0.3s ease-in-out;
 }
 
-.redes-vizinhas img {
+.box-center img {
     width: 100%;
 }
 
-.redes-vizinhas a:hover {
+.box-center a:hover {
     transform: translateY(-10px);
 }
 

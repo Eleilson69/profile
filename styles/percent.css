@@ -1,41 +1,19 @@
-@charset "UTF-8";
-@font-face {
-    font-family: 'kdam';
-    src: url(../fontes/KdamThmorPro-Regular.ttf)format('truetype');
-}
-
-@font-face {
-    font-family: 'nuosuSIl';
-    src: url(../fontes/NuosuSIL-Regular.ttf)format('truetype');
-}
-
-@font-face {
-    font-family: 'BebasNeue';
-    src: url(../fontes/BebasNeue-Regular.ttf)format('truetype');
-}
-
-:root {
-    --font-padrao: arial, verdana, helvetica, Sans-serif;
-    --font-normal-1: 'nuosuSIl';
-    --font-normal-2: 'BebasNeue';
-    --font-principal: 'kdam';
-    --cor-0: #03e37a;
-    --cor-1: #17ade9;
-    --cor-2: #514869;
-    --cor-3: #142c32;
-    --cor-4: #000056;
-    --cor-5: #021A20;
-    --cor-6: rgb(201, 206, 210);
-    --cor-7: #201b2c;
-    --cor-8: #282A36;
-    --cor-9: #DD6387;
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--font-principal);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-percent {
+    position: absolute;
+    bottom: -3px;
+    width: 95%;
+    height: 45%;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    border-top: 1px solid transparent;
 }
 
 .conteiner {
@@ -43,28 +21,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 96%;
-    height: 100%;
+    border: solid transparent;
+    width: 90px;
+    height: 90px;
 }
 
-.conteiner .card .percent {
-    border: solid transparent;
-    position: relative;
-    width: 100%;
-    height: 60px;
-    bottom: 2px;
-    left: 10px;
-}
-
-.conteiner .card .percent svg {
-    border: solid transparent;
+.svg {
+    position: absolute;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    width: 80px;
-    height: 80px;
-    bottom: 12px;
+    width: 150px;
+    height: 150px;
+    border: solid transparent;
+    border-radius: 50%;
+}
+
+svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotate(275deg);
 }
 
@@ -75,13 +52,13 @@
     fill: transparent;
     stroke-width: 2;
     stroke: #191919;
-    transform: translate(5px, 5px);
+    transform: translate(1px, 4.1px);
 }
 
 .conteiner .card .percent svg circle:nth-child(2) {
     stroke: var(--clr);
-    stroke-dasharray: 206;
-    stroke-dashoffset: calc(206 - (206 * var(--num)) / 100);
+    stroke-dasharray: 185;
+    stroke-dashoffset: calc(185 - (185 * var(--num)) / 100);
     opacity: 0;
     animation: fadeIn 1s linear forwards;
     animation-delay: 2.5s;
@@ -97,14 +74,11 @@
 }
 
 .dot {
+    border-radius: 50%;
     border: solid transparent;
     position: absolute;
-    width: 65px;
-    height: 65px;
-    inset: 5.7px;
-    top: -5.5px;
+    inset: 5px;
     z-index: 10;
-    border-radius: 50%;
     transform: rotate(calc(3.6deg * var(--num)));
     /* 360deg / 100 = 3.6 */
     animation: animatedDot 2s linear forwards;
@@ -122,8 +96,8 @@
 .dot::before {
     content: "";
     position: absolute;
-    top: -7px;
-    left: 45%;
+    top: 0.9px;
+    left: 44%;
     transform: translateX(50%);
     width: 10px;
     height: 10px;
@@ -133,14 +107,15 @@
 }
 
 .number {
-    border: solid transparent;
-    position: absolute;
-    inset: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    border: solid transparent;
+    position: absolute;
     opacity: 0;
     animation: fadeIn 1s linear forwards;
     animation-delay: 2.5s;
@@ -148,25 +123,23 @@
 
 .number h2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    font-weight: 300;
-    font-size: 1.5em;
+    transform: translate(2px, -1px);
 }
 
 .number h2 span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 0.6em;
     color: #fff;
-    font-size: 0.5em;
 }
 
 .number p {
-    display: flex;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 0.6em;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.75);
+    transform: translate(2px, 0px);
 }
