@@ -60,7 +60,7 @@ svg {
     stroke-dashoffset: calc(185 - (185 * var(--num)) / 100);
     opacity: 0;
     animation: fadeIn 1s linear forwards;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
 }
 
 @keyframes fadeIn {
@@ -95,9 +95,9 @@ svg {
 .dot::before {
     content: "";
     position: absolute;
-    top: 1%;
+    top: -0.5%;
     left: 42%;
-    transform: translateX(50%);
+    transform: translateX(5px);
     width: 3.5px;
     height: 8px;
     border: 30%;
@@ -117,7 +117,7 @@ svg {
     position: absolute;
     opacity: 0;
     animation: fadeIn 1s linear forwards;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
 }
 
 .number h2 {
