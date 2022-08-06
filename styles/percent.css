@@ -7,13 +7,12 @@
 
 .box-percent {
     position: absolute;
-    bottom: -3px;
     width: 95%;
     height: 45%;
     display: flex;
     justify-content: end;
     overflow: hidden;
-    border-top: 1px solid transparent;
+    background-color: transparent;
 }
 
 .conteiner {
@@ -96,14 +95,14 @@ svg {
 .dot::before {
     content: "";
     position: absolute;
-    top: 0.9px;
+    top: 1%;
     left: 44%;
     transform: translateX(50%);
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background: var(--clr);
-    box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr);
+    box-shadow: 0 0 1px var(--clr), 0 0 5px var(--clr);
 }
 
 .number {
