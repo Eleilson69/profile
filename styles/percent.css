@@ -96,11 +96,11 @@ svg {
     content: "";
     position: absolute;
     top: 1%;
-    left: 44%;
+    left: 42%;
     transform: translateX(50%);
-    width: 10px;
+    width: 3.5px;
     height: 10px;
-    border-radius: 50%;
+    border: 30%;
     background: var(--clr);
     box-shadow: 0 0 1px var(--clr), 0 0 5px var(--clr);
 }
