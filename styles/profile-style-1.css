@@ -127,20 +127,14 @@ main {
     transition: 0.5s all cubic-bezier(0.55, 0.055, 0.265, 1.55);
 }
 
-.redes-vizinha h2 {
-    color: #fff;
-    font-family: var(--font-padrao);
-    margin-left: 10px;
-    cursor: pointer;
-}
-
 .redes-vizinha a {
     margin: 1px;
     transition: 0.3s ease-in-out;
 }
 
 .redes-vizinha img {
-    width: 100%;
+    width: 130px;
+    height: 30px;
 }
 
 .redes-vizinha a:hover {
