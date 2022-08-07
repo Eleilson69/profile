@@ -11,7 +11,7 @@ const numberPercent3 = document.querySelector('.number-percent3')
 const numberPercent4 = document.querySelector('.number-percent4')
 const numberPercent5 = document.querySelector('.number-percent5')
 
-const values = [86, 75, 70, 65, 60]
+const values = [85, 75, 70, 65, 60]
 
 const percent1 = () => {
     const number = values[0]
