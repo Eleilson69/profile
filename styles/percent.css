@@ -61,7 +61,7 @@ svg {
     opacity: 0;
     animation: fadeIn 1s linear forwards;
     animation-delay: 0.01s;
-    transition: stroke-dashoffset 1s;
+    transition: stroke-dashoffset 3s;
 }
 
 @keyframes fadeIn {
