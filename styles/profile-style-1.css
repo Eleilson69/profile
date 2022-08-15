@@ -46,6 +46,11 @@ header {
     height: 50px;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 .back {
     display: flex;
     justify-content: center;
